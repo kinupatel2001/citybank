@@ -1,0 +1,17 @@
+// pre: list != null, list.length > 0
+	// post: return index of minimum element of array
+	public static int findMin(int[] list)
+	{	assert list != null && list.length > 0 : "failed precondition";
+
+		int indexOfMin = 0;
+		for(int i = 1; i < list.length; i++)
+		{	if(list[i] < list[indexOfMin])
+			{	indexOfMin = i;
+			}
+		}
+
+		return indexOfMin;
+	}
+city bank java application
+city bank application code
+
